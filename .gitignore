@@ -1,0 +1,60 @@
+# Haskell関連
+dist
+dist-*
+cabal-dev
+*.o
+*.hi
+*.hie
+*.chi
+*.chs.h
+*.dyn_o
+*.dyn_hi
+.hpc
+.hsenv
+.cabal-sandbox/
+cabal.sandbox.config
+*.prof
+*.aux
+*.hp
+*.eventlog
+.stack-work/
+cabal.project.local
+cabal.project.local~
+.HTF/
+.ghc.environment.*
+
+# Stack関連
+.stack-work/
+stack.yaml.lock
+
+# Cabal関連
+dist/
+dist-newstyle/
+.cabal-sandbox/
+cabal.sandbox.config
+cabal.project.local
+
+# GHC関連
+*.hi
+*.o
+*.dyn_hi
+*.dyn_o
+.ghc.environment.*
+
+# IDE/エディタ関連
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker関連
+.docker/
+
+# その他
+logs/
+.env
+*.log
+tmp/
+temp/ 
